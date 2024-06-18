@@ -72,6 +72,7 @@ const ContactTitle = styled.div`
   font-size: 24px;
   margin-bottom: 6px;
   font-weight: 600;
+  text-align: center;
   color: ${({ theme }) => theme.text_primary};
 `
 
@@ -114,6 +115,7 @@ const ContactButton = styled.input`
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
+  cursor: pointer;
   border: none;
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;

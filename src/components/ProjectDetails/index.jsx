@@ -15,6 +15,10 @@ align-items: top;
 justify-content: center;
 overflow-y: scroll;
 transition: all 0.5s ease;
+@media only screen and (ax-width: 600px) {
+    width: 100%;
+    margin: auto
+}
 `;
 
 const Wrapper = styled.div`

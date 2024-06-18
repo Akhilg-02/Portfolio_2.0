@@ -1,3 +1,6 @@
+import flikartPic from "../images/Flip.png";
+import reliancePic from "../images/rel.png";
+
 export const Bio = {
   name: "Akhil Gupta",
   roles: [
@@ -7,12 +10,12 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated and versatile individual, always eager to take on new challenges, with a passion for learning and dedicated to delivering high-quality results. With a positive attitude, growth mindset, and a passion for exploring new technologies across domains, I strive to leverage them to solve real-life problems.",
   github: "https://github.com/Akhilg-02",
   resume:
     "https://drive.google.com/file/d/1Uyoq9r_dJjEOiMrjjI0b0XjIZpaL5sj9/view",
   linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
-  twitter: "https://twitter.com/RishavChanda",
+  twitter: "https://twitter.com/Akhilg_02",
   // insta: "https://www.instagram.com/rishav_chanda/",
   // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
@@ -70,10 +73,6 @@ export const skills = [
           "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
       },
       {
-        name: "Graph Ql",
-        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      },
-      {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -86,6 +85,10 @@ export const skills = [
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "Graph Ql",
+        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
       },
        // {
       //   name: "Postgresql",
@@ -269,13 +272,35 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Faballey Clone",
+    date: "Nov 2021 - Nov 2021",
+    description:
+      "FabAlley is an online fashion store. Launched in 2012, FabAlley covers everything from the glitziest party dresses, relaxed vacation wear, trendy casual wear to statement accessories. The brand’s products are inspired from trends around the world - global runway and fast fashion trends that have found favor in India and Internationally. Faballey understands the evolving western-wear needs unique to Indian women and focuses on providing 360 degree wardrobe solutions covering all facets and occasions.",
+    image:`https://camo.githubusercontent.com/ecdd8dd7aff3effa3fa5906abd82197a78bfb35fb0c9c564de3c5d82230e2eb2/68747470733a2f2f692e6962622e636f2f76335a357636352f666162626262626262626262312e706e67` ,
+    tags: ["React Js","MongoDb","Node Js","Html", "JavaScript", "CSS"],
+    category: "web app",
+    github: "https://github.com/Akhilg-02/faballey-clone-main",
+    webapp: "https://clonefaballey.netlify.app/",
+    member: [
+      {
+        name: "Akhil Gupta",
+        img: "https://avatars.githubusercontent.com/u/93373025?v=4",
+        linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
+        github: "https://github.com/Akhilg-02",
+      },
+      {
+        name: "+3",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Flipakart-Clone",
-    date: "Dec 2023 - Dec 2023",
+    date: "Dec 2021 - Dec 2021",
     description:
       "Flipkart is an e-commerce company , the company initially focused on Electronics, fashion, lifestyle and other product categories.",
-    image:
-      "https://akhilportfolio-02.netlify.app/images/Flip.png",
-    tags: ["Html", "JavaScript", "CSS", "MongoDb", "Local-Storage" ,"REST-Api"],
+    image:`${flikartPic}`,
+    tags: ["Html", "JavaScript", "Node Js" ,"CSS", "MongoDb", "Local-Storage" ,"REST-Api"],
     category: "web app",
     github: "https://github.com/Akhilg-02/Flipkart-clone-with-db",
     webapp: "https://copyflipcart.netlify.app/",
@@ -285,15 +310,76 @@ export const projects = [
         img: "https://avatars.githubusercontent.com/u/93373025?v=4",
         linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
         github: "https://github.com/Akhilg-02",
+      },
+      {
+        name: "Gopala",
+        img: "https://avatars.githubusercontent.com/u/85282522?v=4",
+        linkedin: "https://www.linkedin.com/in/gopala-b8185b211/",
+        github: "https://github.com/gopala1995",
+      },
+      {
+        name: "Srinivas Jakhar",
+        img: "https://avatars.githubusercontent.com/u/93506518?v=4",
+        linkedin: "https://www.linkedin.com/in/srinivasjakhar/",
+        github: "https://github.com/snjakhar",
       }
     ],
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    id: 4,
+    title: "Reliance-Retail Clone",
+    date: "Nov 2021 - Nov 2021",
+    description:
+      "Reliance Retail Limited operates as a supermarket.The Company provides ,Grocery, fashion, entertainment, energy and other categories.",
+    image:`${reliancePic}` ,
+    tags: ["Html", "JavaScript", "CSS", "Local-Storage" ],
+    category: "web app",
+    github: "https://github.com/sarthakbakshii/relianceRetail_clone",
+    webapp: "https://relianceretail-clone.netlify.app/",
+    member: [
+      {
+        name: "Akhil Gupta",
+        img: "https://avatars.githubusercontent.com/u/93373025?v=4",
+        linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
+        github: "https://github.com/Akhilg-02",
+      },
+      {
+        name: "Sarthak Bakshi",
+        img: "https://avatars.githubusercontent.com/u/71251834?v=4",
+        linkedin: "https://www.linkedin.com/in/sarthak-bakshi/",
+        github: "https://github.com/sarthakbakshii",
+      }
+    ],
+  },
+  
+  {
+    id: 5,
+    title: "Balloon Click Game",
+    date: "Nov 2021 - Nov 2021",
+    description:
+      <code>
+      Balloon click game using the React js and material ui for design <br/>
+      Instruction to use this Application:- <br/>
+      ➤ The red box is an empty box.<br/>
+      ➤ There are 5 balloons in the the green box.<br/>
+      ➤ At the end there is an input box in which you can input , any balloons between 1 to 5.<br/>
+      ➤ Then click on shoot buttoon , as you click on shoot the number of balloons you have inputed will come in the empty red box.<br/>
+      ➤ Now going on red box , If a person click on the any balloon will come to its original place.<br/>
+      </code>
+      ,
+    image:
+      "https://c8.alamy.com/comp/F67FJA/flat-air-balloon-web-icon-web-application-icons-project-start-up-business-F67FJA.jpg",
+    tags: ["React Js", "Html", "JavaScript", "CSS", "Local-Storage", "Material UI" ],
+    category: "web app",
+    github: "https://github.com/Akhilg-02/Balloon-Project",
+    webapp: "https://site-balloon.netlify.app/",
+    member: [
+      {
+        name: "Akhil Gupta",
+        img: "https://avatars.githubusercontent.com/u/93373025?v=4",
+        linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
+        github: "https://github.com/Akhilg-02",
+      }
+    ],
+  },
 ];

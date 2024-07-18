@@ -1,5 +1,6 @@
 import flikartPic from "../images/Flip.png";
 import reliancePic from "../images/rel.png";
+import devPic from "../images/dev1.png"
 
 export const Bio = {
   name: "Akhil Gupta",
@@ -224,6 +225,26 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Developer Activity Dashboard",
+    date: "Jul 2024 - Jul 2024",
+    description:
+      "Data visualization of developers day to day activity",
+    image:`${devPic}`,
+    tags: ["React Js", "TypeScript","ChartJs","Material UI","Data-Visualization"],
+    category: "web app",
+    github: "https://github.com/Akhilg-02/Developer-Activity-Dashboard",
+    webapp: "https://developer-activity-dashboard-two.vercel.app/",
+    member: [
+      {
+        name: "Akhil Gupta",
+        img: "https://avatars.githubusercontent.com/u/93373025?v=4",
+        linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
+        github: "https://github.com/Akhilg-02",
+      }
+    ],
+  },
+  {
+    id: 1,
     title: "Automobile Rent Application",
     date: "Apr 2024 - May 2024",
     description:
@@ -244,7 +265,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Cartify Ecommerce App.",
     date: "May 2024 - May 2024",
     description:
@@ -271,7 +292,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Faballey Clone",
     date: "Nov 2021 - Nov 2021",
     description:
@@ -294,7 +315,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Flipakart-Clone",
     date: "Dec 2021 - Dec 2021",
     description:
@@ -326,7 +347,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Reliance-Retail Clone",
     date: "Nov 2021 - Nov 2021",
     description:
@@ -353,7 +374,7 @@ export const projects = [
   },
   
   {
-    id: 5,
+    id: 6,
     title: "Balloon Click Game",
     date: "Nov 2021 - Nov 2021",
     description:

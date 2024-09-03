@@ -14,7 +14,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges, with a passion for learning and dedicated to delivering high-quality results. With a positive attitude, growth mindset, and a passion for exploring new technologies across domains, I strive to leverage them to solve real-life problems.",
   github: "https://github.com/Akhilg-02",
   resume:
-    "https://drive.google.com/file/d/15O-GQAABKtwYwRil_dWzomPawHyYuB3g/view?usp=sharing",
+    "https://drive.google.com/file/d/17LBFppaTszpm6hv2mVHks51MPUROv1PB/view",
   linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
   twitter: "https://twitter.com/Akhilg_02",
   // insta: "https://www.instagram.com/",

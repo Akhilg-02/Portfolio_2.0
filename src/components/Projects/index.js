@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects.Here are some of my projects.
+        A wide range of projects has been worked on. Here are some examples of these projects.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?

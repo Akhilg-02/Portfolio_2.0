@@ -9,6 +9,8 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding-top: 60px;
+margin-top: -60px;
 `
 
 const Wrapper = styled.div`
@@ -22,6 +24,7 @@ max-width: 1100px;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
+    
 }
 `
 
@@ -118,13 +121,13 @@ const SkillImage = styled.img`
   height: 24px;
 `
 
-
 const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>
+        Here are some skills that have been developed over the past years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (

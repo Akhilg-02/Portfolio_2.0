@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  padding: 150px 30px;
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
@@ -15,7 +15,7 @@ export const HeroContainer = styled.div`
   }
   z-index: 1;
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  lip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
 export const HeroBg = styled.div`
@@ -188,6 +188,7 @@ export const ResumeButton = styled.a`
     appearance: button;
     text-decoration: none;
     width: 95%;
+    margin-top: 8%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;

@@ -8,17 +8,18 @@ export const Bio = {
     "Full Stack Developer",
     "React Js Developer",
     "UI/UX Designer",
-    "Programmer",
+    //"Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges, with a passion for learning and dedicated to delivering high-quality results. With a positive attitude, growth mindset, and a passion for exploring new technologies across domains, I strive to leverage them to solve real-life problems.",
+    "Skilled in ReactJS, HTML, CSS, Material-UI, and other frontend libraries that enhance the creation of visually appealing user interfaces. A motivated and adaptable professional, driven by a passion for learning and a dedication to delivering top-quality outcomes. With a positive attitude and a growth mindset, I continuously seek to explore new technologies and apply them to solve real-world challenges.",
   github: "https://github.com/Akhilg-02",
   resume:
-    "https://drive.google.com/file/d/17LBFppaTszpm6hv2mVHks51MPUROv1PB/view",
+    "https://drive.google.com/file/d/1dUy0j8vSjKKoco70wFcmq4dVvQet7uKr/view",
   linkedin: "https://www.linkedin.com/in/akhil-gupta1997/",
   twitter: "https://twitter.com/Akhilg_02",
   // insta: "https://www.instagram.com/",
   // facebook: "https://www.facebook.com/",
+  //https://drive.google.com/file/d/17LBFppaTszpm6hv2mVHks51MPUROv1PB/view
 };
 
 export const skills = [
@@ -209,7 +210,7 @@ export const education = [
     school: "Masai School",
     date: "Aug 2021 - Mar 2022",
     grade: "**",
-    desc: "I completed my full stack developer course (MERN), Bengaluru from this institute.",
+    desc: "The full-stack developer course (MERN) was completed in Bengaluru at this institute.",
     degree: "Full Stack Developer",
   },
   {

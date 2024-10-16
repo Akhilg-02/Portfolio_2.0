@@ -11,6 +11,8 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding-top: 60px;
+margin-top: -60px;
 @media (max-width: 960px) {
     padding: 0px;
 }
@@ -72,6 +74,14 @@ const ContactTitle = styled.div`
   font-size: 24px;
   margin-bottom: 6px;
   font-weight: 600;
+  text-align: center;
+  color: ${({ theme }) => theme.text_primary};
+`
+
+const ContactData = styled.div`
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 350;
   text-align: center;
   color: ${({ theme }) => theme.text_primary};
 `
@@ -144,9 +154,11 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
+        <ContactData>Email: guptaakhil0206@gmail.com </ContactData>
+        <ContactData>Contact: 7000115374  </ContactData>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>

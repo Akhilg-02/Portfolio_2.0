@@ -8,7 +8,7 @@ git add --all
 git status
 
 # Commit changes with a specified message
-git commit -m "updated the resume link"
+git commit -m "updated the required information in portfolio"
 
 # Push changes to the remote repository
 git push origin main
